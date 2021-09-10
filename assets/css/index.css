@@ -6,3 +6,21 @@
   background-color: #EEF1F6;
   font-size: 18px;
 }
+
+.content .fusszeile{
+  border-top: 1px solid #BFD3EB;
+  border-bottom: 1px solid #BFD3EB;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.content .fusszeile ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.content .fusszeile ul .footerul{
+  display: flex;
+  justify-content: space-between;
+}

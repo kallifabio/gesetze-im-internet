@@ -7,6 +7,10 @@
   font-size: 18px;
 }
 
+.content .container .text a:hover{
+  color: #BFD3EB;
+}
+
 .content .fusszeile{
   border-top: 1px solid #BFD3EB;
   border-bottom: 1px solid #BFD3EB;
@@ -20,6 +24,9 @@
   padding: 0;
   display: flex;
   justify-content: space-between;
+}
+
+.content .fusszeile ul li a{
   color: black;
 }
 

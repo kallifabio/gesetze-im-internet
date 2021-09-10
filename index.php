@@ -1,5 +1,10 @@
-<html>
-<head>
-  <title>Gesetze Rework</title>
-</head>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Gesetze Rework</title>
+  </head>
+  <body>
+
+  </body>
 </html>

@@ -20,4 +20,9 @@
   padding: 0;
   display: flex;
   justify-content: space-between;
+  color: black;
+}
+
+.content .fusszeile ul li a:hover{
+  color: #BFD3EB;
 }

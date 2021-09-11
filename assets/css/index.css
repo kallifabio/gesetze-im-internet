@@ -14,8 +14,10 @@
 .content .fusszeile{
   border-top: 1px solid #BFD3EB;
   border-bottom: 1px solid #BFD3EB;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
   padding: 5px;
+  margin-left: 16.5%;
+  margin-right: 16.5%;
 }
 
 .content .fusszeile ul{

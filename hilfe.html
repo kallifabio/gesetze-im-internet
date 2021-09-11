@@ -14,28 +14,8 @@
 </head>
 
 <body>
-	<div class="navbar-fixed">
-		<nav>
-			<div class="nav-wrapper light-blue darken-4">
-				<ul class="left hide-on-med-and-down">
-					<li><a href="https://kallifabio.github.io/gesetze-im-internet/">Startseite</a></li>
-					<li><a href="gesetze-verordnungen/gesetze-verordnungen.html">Gesetze/Verordnungen</a></li>
-					<li><a href="#">Aktualitätendienst</a></li>
-					<li><a href="#">Titelsuche</a></li>
-					<li><a href="#">Volltextsuche</a></li>
-					<li><a href="#">Translations</a></li>
-					<li><a href="#">Hinweise</a></li>
-				</ul>
-				<ul class="right hide-on-med-and-down">
-					<li class="active"><a href="hilfe.html">Tastenkombinationen</a></li>
-					<li><a href="https://justiz.de/onlinedienste/bundesundlandesrecht/index.php">Landesrecht</a></li>
-					<li><a href="https://www.rechtsprechung-im-internet.de/jportal/portal/page/bsjrsprod.psml">Rechtsprechung im Internet</a></li>
-					<li><a href="https://www.verwaltungsvorschriften-im-internet.de/">Verwaltungsvorschriften im Internet</a></li>
-					<li><a href="https://n-lex.europa.eu/n-lex/">N-Lex</a></li>
-				</ul>
-			</div>
-		</nav>
-	</div> <img src="https://www.gesetze-im-internet.de/img/lay/BMJV_BfJ_2018_Web_Sonderskalierung_137px_de_de.gif" class="brand-logo">
+	<script src="assets/js/navhilfe.js"></script>
+	<img src="https://www.gesetze-im-internet.de/img/lay/BMJV_BfJ_2018_Web_Sonderskalierung_137px_de_de.gif" class="brand-logo">
 	<div class="content">
 		<div class="container">
 			<h4 class="headline">Mögliche Tastenkombinationen und deren Funktion</h4>
@@ -52,7 +32,7 @@
 					<li>&nbsp;Alt 8&nbsp;&nbsp;&nbsp;&nbsp;zur Datenschutzerkl&auml;rung</li>
 					<li>&nbsp;Alt 9&nbsp;&nbsp;&nbsp;&nbsp;zur Titelsuchseite</li>
 				</ul>
-        <br />
+				<br />
 				<p>&nbsp;Weitere Hinweise:
 					<br /> &nbsp;- Bei Verwendung des Internetexplorers ist die Tastenkombination mit der RETURN-Taste abzuschicken.
 					<br />
@@ -77,27 +57,13 @@
 			</ul>
 		</div>
 	</div>
-	<footer class="page-footer light-blue darken-4">
-		<div class="container">
-			<div class="row">
-				<div class="col l6 s12">
-					<h5 class="white-text">Information</h5>
-					<p class="red-text">Dies ist nicht die offizielle Seite vom Bundesministerium der Justiz und für Verbraucherschutz.</p>
-				</div>
-				<div class="col l4 offset-l2 s12">
-					<h5 class="white-text">Links</h5>
-					<ul>
-						<li><a class="grey-text text-lighten-3" href="https://www.gesetze-im-internet.de/">Offizielle Seite</a></li>
-						<li><a class="grey-text text-lighten-3" href="https://github.com/kallifabio/gesetze-im-internet">Source Code</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<div class="footer-copyright">
-			<div class="container"> © 2021 Copyright by Bundesministerium der Justiz und für Verbraucherschutz - All rights reserved
-				<!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> --></div>
-		</div>
-	</footer>
+	<script src="assets/js/footer.js"></script>
+	<script type="text/javascript">
+	document.addEventListener('DOMContentLoaded', function() {
+		var elems = document.querySelectorAll('.sidenav');
+		var instances = M.Sidenav.init(elems, options);
+	});
+	</script>
 	<!--JavaScript at end of body for optimized loading-->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
